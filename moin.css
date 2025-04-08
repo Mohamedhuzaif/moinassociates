@@ -1,6 +1,8 @@
 @media (max-width: 768px) {
     header {
         padding: 10px 0;
+    }
+}
 * {
     box-sizing: border-box;
 /* General Styles */
