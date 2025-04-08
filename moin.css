@@ -21,6 +21,7 @@ header {
     padding: 15px 0;
     position: fixed;
     width: 100%;
+    height: auto;
     top: 0;
     z-index: 1000;
 }
@@ -210,4 +211,5 @@ footer {
     text-align: center;
     padding: 15px 0;
 }
+
 
