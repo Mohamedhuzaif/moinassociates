@@ -21,7 +21,6 @@ header {
     padding: 15px 0;
     position: fixed;
     width: 100%;
-    height: auto;
     top: 0;
     z-index: 1000;
 }
@@ -106,11 +105,6 @@ nav ul li a {
     margin: 0;
     font-size: 18px;
 }
-
-
-    
-
-
 @keyframes scrollimages {
     0% {
         transform: translateX(0);
