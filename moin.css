@@ -48,7 +48,7 @@ nav ul li a {
 
 /* Hero Section */
 .hero {
-    height: 100vh;
+    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -72,6 +72,12 @@ nav ul li a {
     align-items: center;
     gap: 10px;
 }
+@media (max-width:768px) {
+.hero {
+    height: auto;
+}
+}
+
 
 .image-slider-wrapper {
     position: absolute;
