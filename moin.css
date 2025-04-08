@@ -72,13 +72,6 @@ nav ul li a {
     align-items: center;
     gap: 10px;
 }
-@media (max-width:768px) {
-.hero {
-    height: auto;
-}
-}
-
-
 .image-slider-wrapper {
     position: absolute;
     bottom: 10%;
