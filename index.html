@@ -7,6 +7,8 @@
     <meta name="keywords" content="Cyber Center, PAN card, Aadhaar correction, Government Services, KGF, Karnataka">
         <meta name="author" content="MOIN ASSOCIATES">
 <meta name="google-site-verification" content="YAW5KLttJzlLqaRGuKxFyaBYq7TfOqBeQWFjmbuvUyI" />
+<meta name="viewport"
+    content="width=100%,initial-scale=1.0">
     <title>MOIN ASSOCIATES - Cyber Center</title>
     <link rel="stylesheet" href="moin.css">
     <script src="moin.js"></script>
@@ -14,10 +16,12 @@
 <body>
 
 <!-- Navbar -->
-<header>
-    <div class="container">
-        <h1 style="font-size: 30px;">MOIN ASSOCIATES</h1>
-        <nav>
+ 
+<header class="header-wrapper">
+<div class="container">
+    <h1 style="font-size: 30px;">MOIN ASSOCIATES</h1>
+
+        <nav class="navbar">
             <ul>
                 <li style="font-size: 30px;"><a href="#home">Home</a></li>
                 <li style="font-size: 30px;"><a href="#services">Services</a></li>
@@ -25,11 +29,12 @@
                 <li style="font-size: 30px;"><a href="#contact">Contact</a></li>
             </ul>
         </nav>
-    </div>
+</div>
 </header>
+ 
 
 <!-- Hero Section -->
-<section id="home" class="hero" style="background-image: url('section bgimg.jpeg');">
+<section id="home" class="hero">
     
     
     <div class="hero-text">
@@ -43,14 +48,13 @@
             <img src="udyam.png" alt="udyam">
             <img src="kmdc.png" alt="kmdc">
             <img src="epfo.jpeg" alt="epfo">
-            <img src="kyc.jpeg" alt="kyc">
             <img src="nsp ssp.jpeg" alt="ssp/nsp">
             <img src="pan-2-0-new-pan-card-to-have-a-qr-code-will-your-current-pan-card-become-inoperative.webp" alt="pan card">
             <img src="apl.jpeg" alt="ration card">
             <img src="income.jpeg" alt="income certificate">
-            <img src="passport.jpeg" alt="passport">
             <img src="voter.jpeg" alt="voter id">
             <img src="health.jpeg" alt="health card">
+            <img src="passport.jpeg" alt="passport">
     
         </div>
      </div>
@@ -58,7 +62,8 @@
 
 
 <!-- Services Section -->
-<section id="services" style="background-image: url('sevicebgimg.jpeg');">
+<section id="services">
+    <P style="font-size: 30PX;">SERVICES</P>
     <div class="services-container">
 
 
@@ -75,7 +80,7 @@
             <p>Update your Aadhaar details easily.</p>
         </div>
         <div class="service-card" style="background-color: rgb(240, 240, 234);" data-doc="income-doc">
-            <h3>INCOME AND CASTE CERTIFICATE</h3>
+            <h3>INCOME AND CASTE CERTIFICATE(OBC/SC/ST)</h3>
             <p>Obtain legal Certification effortlessly.</p>
         </div>
         <div class="service-card" style="background-color: rgb(248, 248, 244);" data-doc="scholarship-doc">
@@ -132,21 +137,14 @@
     <h3>POLICE VERIFICATION</h3>
     <p>Documents verification for various purposes.</p>
 </div>
-<div class="service-card" style="background-color: rgb(248, 248, 244);" data-doc="laxmi-doc">
-    <h3>GHRUHA LAXMI SCHEME</h3>
-    <p>Government financial assistance for women.</p>
-</div>
-<div class="service-card" style="background-color: rgb(3, 3, 3); color: white;" data-doc="jyothi-doc">
+
+<div class="service-card" style="background-color: rgb(248, 248, 244); color: black;" data-doc="jyothi-doc">
     <h3>GHRUHA JYOTHI SCHEME</h3>
     <p>Subsidized electricity benefits.</p>
 </div>
-<div class="service-card" style="background-color: rgb(248, 248, 244);" data-doc="kmdc-doc">
+<div class="service-card" style="background-color: rgb(3, 3, 3); color: white;" data-doc="kmdc-doc">
     <h3>KMDC EDUCATIONAL LOANS</h3>
     <p>financial aid for students.</p>
-</div>
-<div class="service-card" style="background-color: rgb(248, 248, 244);" data-doc="kyc-doc">
-    <h3>KYC</h3>
-    <p>Know your customer vaerification service.</p>
 </div>
 
 <div class="service-break"></div>
@@ -177,32 +175,48 @@
         </tr>
         <tr id="pan-doc">
             <td>PAN NEW AND CORRECTION </td>
-            <td>*AADHAAR CARD COPY<br>
-                * TWO PASSPORT SIZE PHOTO
+            <td>INCASE OF NEW<br>
+                *AADHAAR CARD COPY<br>
+                * TWO PASSPORT SIZE PHOTO<br><hr>
+                INCASE OF CORRECTION<br>
+                *AADHAAR CARD COPY<br>
+                *TWO PASSPORTSIZE PHOTOS<br>
+                *FATHER'S NAME CORRECTION TWO PROOFS REQUIRED(VOTER ID,MATRICULATION MARKSCARD,DRIVING LICENSE,PASSPORT,RATION CARD)<br>
                 </td>
         </tr>
         <tr id="aadhaar-doc">
             <td>AADHAAR ADDRESS CORRECTION</td>
             <td>*NEW ADDRESS TO BE CORRECTED<br>
-                * DOCTOR CERTIFICATE<br>
+                * CERTIFICATE FOR AADHAAR ENROLMENT/UPDATE WHICH HAS TO BE SIGNED BY GAZETTED OFFICER GROUP A<br>
                 * ONE PASSPORTSIZE PHOTO</td>
         </tr>
         <tr id="income-doc">
             <td>INCOME AND CASTE CERTIFICATE</td>
-            <td>*AADHAAR<br>
+            <td>INCASE OF OBC<br>
+                *AADHAAR<br>
                 * RATION CARD<br>
                 * PASSPORT SIZE PHOTO<br>
                 * 10TH TC (ABOVE 10TH)<br>
                 * AFFIDAVIT (FAMILY TREE FOR (SC/ST))<br>
                 * FATHER'S CASTE CERTICATE (BELOW 10TH STUDENTS)<br>
                 * STUDY CERTIFICATE (BELOW 10TH STUDENTS)<br>
-                * OLD CASTE CERTIFICATE(OBC)</td>
+                * OLD CASTE CERTIFICATE(OBC) IN CASE OF RENEWAL<br><hr>
+                INCASE OF SC/ST<br>
+                *AADHAAR <br>
+                *RATION CARD<br>
+                *PASSPORT SIZE PHOTO<br>
+                *1OTH TC (COMPLETED)<br>
+                *AFFIDAVIT (FAMILY TREE FOR SC/ST)<br>
+                *FATHER'S CASTE CERTIFICATE(BELOW 10TH STUDENTS)<br>
+                *STUDY CERTIFICATE(BELOW 10TH STUDENTS)
+            </td>
         </tr>
         <tr id="scholarship-doc" >
             <td>SCHOLARSHIP (SSP/NSP)</td>
             <td>*AADHAAR CARD<br>
                 * INCOME CASTE<br>
                 * SSP ID<br>
+                *SATS NUMBER<br>
                 * 10TH REGISTRATION NO<br>
                 * COLLEGE START DATE </td>
         </tr>
@@ -210,7 +224,7 @@
             <td>VOTER ID</td>
             <td>*AADHAAR CARD<br>
                 * ONE PASSPORT SIZE PHOTO<br>
-                * RELATIVES VOTER ID IN CASE OF NEW</td>
+                * RELATIVES VOTER ID (IN CASE OF NEW)</td>
         </tr>
         <tr id="health-doc">
             <td>HEALTH CARD (ABHA CARD, AYUSHMAN CARD)</td>
@@ -235,16 +249,20 @@
         </tr>
         <tr id="pm-doc">
             <td>CSC SERVICES (PM VISHWAKARMA)</td>
-            <td>*AADHAAR CARD<br>
+            <td>* AADHAAR CARD<br>
                 * PAN CARD<br>
                 * BANK DETAILS</td>
         </tr>
         <tr id="passport-doc">
             <td>PASSPORT APPOINTMENT</td>
-            <td>*AADHAAR CARD<br>
-                * 10TH MARKS CARD<br>
-                * PAN CARD<br>
-                * PARENTS PASSPORT IN CASE OF MINOR<br>
+            <td>FOR MAJOR
+                * AADHAAR CARD<br>
+                * 10TH MARKS CARD(NOT REQUIRED IF THEY HAVE NOT STUDIED 10TH)<br>
+                * PAN CARD<br><hr>
+                FOR MINOR<br>
+                * PARENTS PASSPORT <br>
+                * CHILD'S AADHAAR<br>
+                * PARENT'S AADHAAR<br>
                 * BIRTH CERTIFICATE<br>
                 * PARENTS CONSENT FORM</td>
         </tr>
@@ -273,13 +291,6 @@
                 * PHOTO<br>
                 * REGISTERED MOBILE NO</td>
         </tr>
-        <tr id="laxmi-doc">
-            <td>GHRUHA LAKSHMI SCHEME</td>
-            <td>* AADHAAR CARD<br>
-                * RATION CARD<br>
-                * AADHAAR SEEDED BANK ACCOUNT<br>
-                * PRESENT MONTH CURRENT BILL</td>
-        </tr>
         <tr id="jyothi-doc">
             <td>GHRUHA JYOTHI SCHEME</td>
             <td>* AADHAAR CARD<br>
@@ -295,10 +306,6 @@
                 * SURETY FORM<br>
                 * SELF DECLARATION FORM
                 </td>
-        </tr>
-        <tr id="kyc-doc">
-            <td>KYC</td>
-            <td>* INCOME CASTE CERTIFICATE</td>
         </tr>
         <tr id="epfo-doc">
             <td>EPFO</td>
@@ -325,7 +332,7 @@
     <p><strong>Address:</strong> Dr.B.R. Ambedkar Road Opp. to Court Robertsonpet KGF<br>563122</p>
     <p><strong>Email:</strong> moinassociates007@gmail.com</p>
     <p><strong>Phone:</strong>  8747867217<br> 8431330783</p>
-    <p>Fell free to reach out to us for any queries or services</p></div>
+    <p>Feel free to reach out to us for any queries or services</p></div>
     <div id="top-right">
         <img src="ownerpic.jpeg" alt="owner's picture"><br><br>
     <p style="font-size: 30px;"><i>prop:</i><strong>MOHAMED MOINUDDIN</strong></p>
