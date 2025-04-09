@@ -11,14 +11,19 @@ html {
     scroll-behavior: smooth;
 }
 /* Navbar */
-header {
+.header-wrapper {
     background: black;
-    color: gold;
+    color: rgb(247, 246, 245);
     padding: 15px 0;
     position: fixed;
     width: 100%;
     top: 0;
     z-index: 1000;
+    overflow-x: auto;
+}
+.header-wrapper::-webkit-scrollbar
+{
+    display: none;
 }
 .container {
     display: flex;
@@ -27,10 +32,16 @@ header {
     padding: 0 20px;
     background: #333;
     color: white;
+    white-space: nowrap;
+}
+navbar {
+    margin-left: auto;
 }
 nav ul {
     list-style: none;
     display: flex;
+    width: 100%;
+    
 }
 nav ul li {
     margin: 0 15px;
@@ -40,7 +51,12 @@ nav ul li a {
     text-decoration: none;
     font-weight: bold;
 }
-
+@media (max-width:768px) {
+    .header-wrapper {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+    }
+}
 /* Hero Section */
 .hero {
     height: 100vh;
@@ -50,9 +66,8 @@ nav ul li a {
     text-align: center;
     color: black;
     position: relative;
-    
-    
 }
+
 .hero-text{
     position: absolute;
     top: 50%;
@@ -208,4 +223,3 @@ footer {
 }
 
  
-    
